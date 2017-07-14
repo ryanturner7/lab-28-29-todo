@@ -9,26 +9,9 @@
 * Students will learn to compose react components using props
 
 ## Requirements  
-#### Configuration  
-Your lab directory must include  
-* **README.md** -- with a documention about your lab
-* **.babelrc** -- with all dependencies and dev-dependencies 
-* **.eslintrc** -- with the class .eslintrc file
-* **.gitignore** -- with a robust gitignore
-* **.eslintignore** -- with the class .eslintignore
-* **yarn.lock** -- with the yarn lockfile
-* **package.json** -- with all dependencies and dev-dependencies 
-* **webpack.config.js** -- with webpack config
-* **src/** -- conating the froned code
-* **src/main.js** -- containing the entire app
-* **src/style** -- conating your sass
-* **src/style/main.scss** -- for importing and including reset and base
-* **src/style/_vars.scss** -- sass variables
-* **src/style/_reset.scss** -- sass reset 
-* **src/style/_base.scss** -- base styles 
-* **src/style/_layout.scss** -- base styles 
  
 #### Feature Tasks 
+Refactor and add the following components. 
 
 ###### NoteUpdateForm 
 Create a NoteUpdateForm component that inherrits a notes through props and on submit is able to
