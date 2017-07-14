@@ -11,9 +11,9 @@
   
 ## Learning Objectives  
 * Students will learn to create front end routes using react-router-dom 
-* Sudents will learn to restructure their applications into modules
+* Students will learn to restructure their applications into modules
 * Students will learn the difference between view state and application state
-* Students will learn to lift application state to better controll one way data flow
+* Students will learn to lift application state to better control one way data flow
 * Students will learn to create and import sass partials
 
 ## Requirements  
@@ -27,9 +27,9 @@ Your lab directory must include
 * **yarn.lock** -- with the yarn lockfile
 * **package.json** -- with all dependencies and dev-dependencies 
 * **webpack.config.js** -- with webpack config
-* **src/** -- conating the froned code
+* **src/** -- containing the front end code
 * **src/main.js** -- containing the entire app
-* **src/style** -- conating your sass
+* **src/style** -- containing your sass
 * **src/style/main.scss** -- for importing and including reset and base
 * **src/style/_vars.scss** -- sass variables
 * **src/style/_reset.scss** -- sass reset 
@@ -48,15 +48,15 @@ App
 * The app component should manage the entire **application state**. 
 * The state should contain a notes array
 * each note thats added should have the following data
-  * `id`: allways should conain the result of `uuid.v1()`
+  * `id`: allways should contain the result of `uuid.v1()`
   * `editing`: false by default
   * `content`: user provided content
 
 ###### NoteCreateForm Component
-* `onSubmit` the NoteCreateForm should add a note to the appliction state
+* `onSubmit` the NoteCreateForm should add a note to the application state
 
 ###### NoteList Component 
-* should display a unorderd list of NoteItem components
+* should display an unordered list of NoteItem components
 
 ###### NoteItem
 * should display the notes content
@@ -68,7 +68,7 @@ App
   * Test your onChange handler
   * Test your onSubmit handler
 * Test NoteItem
-  * Test the NoteItem's functionality defiend to remote a note from the App's state
+  * Test the NoteItem's functionality defined to remove a note from the App's state
 
 ####  Documentation  
 Write a description of the project in your README.md
