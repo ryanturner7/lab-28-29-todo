@@ -3,6 +3,7 @@
 
 ## Submission Instructions
   * continue working from lab 28
+  * open a **new branch** and create **new pull request** and submit a link on canvas
   
 ## Learning Objectives  
 * Students will learn to about composition vs inheritance
