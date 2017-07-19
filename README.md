@@ -50,6 +50,7 @@ App
 * each note thats added should have the following data
   * `id`: allways should contain the result of `uuid.v1()`
   * `editing`: false by default
+  * `completed`: false by default
   * `content`: user provided content
 
 ###### NoteCreateForm Component
