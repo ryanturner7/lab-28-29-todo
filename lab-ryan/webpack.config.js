@@ -5,6 +5,9 @@ const HTMLPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: 'eval',
+  devServer: {
+    historyApiFallback: true;
+  }
   entry: `${__dirname}/src/main.js`,
   output: {
     publicPath: '/',
@@ -19,7 +22,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_module/,
+        exclude: /node_modules/,
         loader: 'babel-loader',
       },
       {
