@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 
 class App extends React.component {
   constructor(props){
     super(props);
-    this.stae = {
-      total: 400,
-      expenses: [],
+    this.state = {
+      notes: null,
     };
   }
 
-  comonentDidUpdate(){
-    console.log('__STATE__', this.state);
+  this.getApp = this.getApp.bind(this);
+
   }
   getApp(){
     return {
@@ -29,3 +29,4 @@ class App extends React.component {
     }
   }
 }
+ReactDom.render(<App />, document.getElementById('root'));
