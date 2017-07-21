@@ -6,8 +6,8 @@ const HTMLPlugin = require('html-webpack-plugin');
 module.exports = {
   devtool: 'eval',
   devServer: {
-    historyApiFallback: true;
-  }
+    historyApiFallback: true,
+  },
   entry: `${__dirname}/src/main.js`,
   output: {
     publicPath: '/',
